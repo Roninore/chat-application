@@ -1,0 +1,5 @@
+{
+  "port": 80,
+  "url": "http://localhost:80",
+  "mongoURI": "mongodb+srv://roninore:GVqJZAQW2nzXKEj@cluster0.lj1br.mongodb.net/TestTask?retryWrites=true&w=majority"
+}

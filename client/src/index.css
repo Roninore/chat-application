@@ -1,0 +1,105 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+input.white-input {
+  border-bottom: 1px solid #613b1e !important;
+  box-shadow: 0 1px 0 0 #613b1e !important;
+}
+
+input.white-input + label {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 400;
+  font-size: large;
+}
+
+input.white-input:focus + label {
+  color: #ffffff !important;
+}
+
+input.white-input:focus {
+  border-bottom: 1px solid #ffffff !important;
+  box-shadow: 0 1px 0 0 #ffffff !important;
+}
+
+body {
+  background-color: rgb(220, 221, 221);
+  height: auto;
+  width: 100%;
+}
+
+.textopacity {
+  opacity: 1 !important;
+  font-weight: 900 !important;
+  vertical-align: middle !important;
+}
+
+.card-panel h4,
+.card-title {
+  text-align: center !important;
+  text-decoration: underline #ea80fc !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+.dialog-header {
+  align-self: flex-start;
+  min-width: 100%;
+}
+
+.message-input {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message-sender {
+  opacity: 1 !important;
+  font-weight: 900 !important;
+  vertical-align: middle !important;
+}
+.dialog {
+  height: 85vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+}
+
+.message-body {
+  margin: 0px;
+}
+
+.messages-container {
+  height: 85vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.void {
+  height: 1vh;
+  width: 5vh;
+  visibility: hidden !important;
+}
+
+.collection {
+  overflow-y: auto;
+  height: 74vh !important;
+}
+.collection::-webkit-scrollbar {
+  width: 0;
+}
+
+.collection .collection-item {
+  border: 0;
+  line-height: 1rem;
+  padding: 0px 10px;
+}
+
+.collection a.collection-item {
+  color: rgb(34, 31, 34) !important;
+}
