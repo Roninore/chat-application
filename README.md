@@ -23,3 +23,6 @@ Chat can support unlimited* number of users.
 
 #### List of connected users | Список подключенных пользователей
 ![Online users](examples/chat2.png)
+
+
+###### by Roninore 2021
