@@ -5,7 +5,7 @@
  - mongoDB |mongoose (database)
 
 You can create chat and send to your friend a link. 
-Chat can support unlimited* number of users
+Chat can support unlimited* number of users.
 
 
 ## Простое приложение-чат
@@ -14,8 +14,8 @@ Chat can support unlimited* number of users
  - Express (сервер)
  - mongoDB |mongoose (база данных сообщений и чатов)
 
-Вы можете создать чат и отправить ссылку на него вашему другу
-Чат может поддерживать неограниченное* количество пользователей
+Вы можете создать чат и отправить ссылку на него вашему другу.
+Чат может поддерживать неограниченное* количество пользователей.
 
 
 #### Chat example | Пример интерфейса чата
